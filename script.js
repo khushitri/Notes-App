@@ -6,8 +6,8 @@ let notesArr = [];
 
 
 function onClick(e){
-    let titleValue = e.target.value;
-    let description = e.target.value;
+    let titleValue = titleElem.value;
+    let description = descElem.value;
     
     console.log({titleValue, description})
     
